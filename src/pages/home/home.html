@@ -1,12 +1,41 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Flash Light
+      Death Registry App
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <button ion-button (click)= "on()">Turn On</button>
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>Name :</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label floating>Date of Birth :</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+        <ion-label floating>Date of Death :</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label floating>Cause of Death :</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label floating>Place of Death :</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+
+  </ion-list>
+
+  <button ion-button>Submit</button>
 
 </ion-content>
